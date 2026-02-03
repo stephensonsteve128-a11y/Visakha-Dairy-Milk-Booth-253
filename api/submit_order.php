@@ -56,7 +56,7 @@ if (file_exists($ordersFile)) {
 $orders[] = $order;
 file_put_contents($ordersFile, json_encode($orders, JSON_PRETTY_PRINT));
 
-$adminEmail = getenv('BOOTH_EMAIL') ?: 'booth253@visakhadairy.in';
+$adminEmail = getenv('BOOTH_EMAIL') ?: 'sekharc2a7@gmail.com';
 $subject = 'New order request from ' . $name;
 $emailBody = "Name: {$name}\nPhone: {$phone}\nEmail: {$sanitizedEmail}\nRequest: {$message}\n";
 @mail($adminEmail, $subject, $emailBody);
