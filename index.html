@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Visakha Dairy Milk Booth 253</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="hero" id="home">
+      <nav class="nav">
+        <div class="brand">
+          <span class="brand__logo">VD</span>
+          <div>
+            <p class="brand__name">Visakha Dairy</p>
+            <p class="brand__subtitle">Milk Booth 253</p>
+          </div>
+        </div>
+        <button class="nav__toggle" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="nav__links">
+          <a href="#home">Home</a>
+          <a href="#offerings">Offerings</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+      <div class="hero__content">
+        <div>
+          <p class="hero__tag">Fresh, chilled, and community-loved</p>
+          <h1>Visakha Dairy Milk Booth 253</h1>
+          <p class="hero__description">
+            Serving the neighborhood with farm-fresh milk, dairy products, and daily essentials. Visit
+            Booth 253 for hygienic, reliable, and wholesome dairy goodness.
+          </p>
+          <div class="hero__actions">
+            <a class="button button--primary" href="#contact">Place an Order</a>
+            <a class="button button--ghost" href="#offerings">View Products</a>
+          </div>
+        </div>
+        <div class="hero__card">
+          <h3>Today&apos;s Highlights</h3>
+          <ul>
+            <li>Fresh milk deliveries from 5:30 AM</li>
+            <li>Curd, paneer, ghee &amp; flavored milk</li>
+            <li>Quick pickup &amp; friendly service</li>
+          </ul>
+          <div class="hero__note">
+            <span>Open</span>
+            <strong>05:30 AM - 10:00 PM</strong>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="section" id="offerings">
+      <div class="section__title">
+        <p>Our Offerings</p>
+        <h2>Dairy essentials for every day</h2>
+      </div>
+      <div class="grid">
+        <article class="card">
+          <h3>Fresh Milk</h3>
+          <p>Chilled, pasteurized milk sourced from Visakha Dairy farms.</p>
+        </article>
+        <article class="card">
+          <h3>Curd &amp; Buttermilk</h3>
+          <p>Thick curd and refreshing buttermilk prepared fresh daily.</p>
+        </article>
+        <article class="card">
+          <h3>Paneer &amp; Ghee</h3>
+          <p>Premium paneer and aromatic ghee for every kitchen.</p>
+        </article>
+        <article class="card">
+          <h3>Flavored Milk</h3>
+          <p>Chocolate, strawberry, and elaichi flavors for all ages.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="about">
+      <div class="section__content">
+        <div>
+          <p class="section__eyebrow">About Booth 253</p>
+          <h2>Built on trust, quality, and community</h2>
+          <p>
+            Visakha Dairy Milk Booth 253 is a neighborhood favorite for clean, reliable dairy supplies.
+            Our booth is managed by trained staff who ensure safe handling, cold storage, and courteous
+            service. We are committed to serving families, cafes, and local vendors every single day.
+          </p>
+          <div class="metrics">
+            <div>
+              <h3>25+</h3>
+              <p>Years serving the locality</p>
+            </div>
+            <div>
+              <h3>1,200+</h3>
+              <p>Liters served every day</p>
+            </div>
+            <div>
+              <h3>100%</h3>
+              <p>Quality assurance &amp; safety</p>
+            </div>
+          </div>
+        </div>
+        <div class="section__image">
+          <div class="image__card">
+            <h3>Why choose us?</h3>
+            <ul>
+              <li>Quick billing and easy pickup</li>
+              <li>Pre-order for bulk requirements</li>
+              <li>Cold-chain maintained storage</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="section__title">
+        <p>Contact</p>
+        <h2>Book your dairy essentials</h2>
+      </div>
+      <div class="contact">
+        <div class="contact__info">
+          <h3>Visit or Call</h3>
+          <p>Booth 253, Main Market Road, Visakhapatnam</p>
+          <p><strong>Phone:</strong> +91 98765 43210</p>
+          <p><strong>WhatsApp:</strong> +91 98765 43210</p>
+          <p><strong>Email:</strong> booth253@visakhadairy.in</p>
+          <div class="hours">
+            <h4>Working Hours</h4>
+            <p>Monday - Sunday</p>
+            <p>05:30 AM - 10:00 PM</p>
+          </div>
+        </div>
+        <form class="contact__form" id="orderForm">
+          <label>
+            Full Name
+            <input type="text" name="name" required />
+          </label>
+          <label>
+            Phone Number
+            <input type="tel" name="phone" required />
+          </label>
+          <label>
+            Product Requirements
+            <textarea name="message" rows="4" required></textarea>
+          </label>
+          <button class="button button--primary" type="submit">Send Request</button>
+          <p class="form__status" id="formStatus">We respond within 15 minutes.</p>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>© 2025 Visakha Dairy Milk Booth 253. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
